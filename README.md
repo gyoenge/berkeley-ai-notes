@@ -1,4 +1,4 @@
-# AI Study Note at UCB 
+# AI Study Note for UCB 
 
 **Personal Study Note on AI** 
 
