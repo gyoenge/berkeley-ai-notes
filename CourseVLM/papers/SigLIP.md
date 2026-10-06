@@ -3,7 +3,7 @@
 Sigmoid Loss for Language Image Pre-Training ([ICCV 2023](https://arxiv.org/pdf/2303.15343))
 
 ---
-
+ 
 ### Target
 
 - Image-text contrastive loss problem: softmax loss depends on global batch information for normalization, limiting training efficiency and scalability.
