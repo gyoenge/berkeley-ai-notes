@@ -18,7 +18,7 @@ Sigmoid Loss for Language Image Pre-Training ([ICCV 2023](https://arxiv.org/pdf/
 
 - Sigmoid loss for language image pre-training is a simpler alternative that does not require computing global normalization factors. 
 
-    $$
+    ```math
     -\frac{1}{|\mathcal{B}|}
     \sum_{i=1}^{|\mathcal{B}|}
     \sum_{j=1}^{|\mathcal{B}|}
@@ -27,7 +27,7 @@ Sigmoid Loss for Language Image Pre-Training ([ICCV 2023](https://arxiv.org/pdf/
     \frac{1}
     {1 + e^{z_{ij}(-t\mathbf{x}_i \cdot \mathbf{y}_j + b)}}
     }_{\mathcal{L}_{ij}}
-    $$
+    ```
 
     - **$z_{ij}$ (label):** Indicates whether image $i$ and text $j$ are paired, with $+1$ for a positive pair and $-1$ for a negative pair.
     - **$b$ (bias):** A learnable bias term initialized to $-10$ to account for the heavy imbalance between positive and negative pairs. It allows training to start close to the positive/negative class prior.
