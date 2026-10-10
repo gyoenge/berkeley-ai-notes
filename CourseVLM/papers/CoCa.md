@@ -4,7 +4,7 @@ Contrastive captioners are image-text foundation models ([2022](https://arxiv.or
 
 ---
 
-### Target
+### Target 
 
 - Unify the capabilities of single-encoder, dual-encoder, and encoder-decoder paradigms within a single image-text foundation model.
 
